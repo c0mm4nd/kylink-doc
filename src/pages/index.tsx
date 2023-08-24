@@ -44,7 +44,7 @@ function HomepageHeader() {
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
           <Link
-            to="/docs/introduction/getting-started"
+            to="/docs/intro"
             className="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-8 py-3 text-base font-medium text-white hover:bg-sky-700 hover:text-white hover:no-underline md:py-4 md:px-10 md:text-lg"
           >
             Get started
