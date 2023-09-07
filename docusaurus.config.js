@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "KyLink Documents",
+  title: "Kylink Documents",
   tagline:
     "Get start your blockchain data analysis with powerful python ecosystem",
   favicon: "img/favicon.ico",
@@ -119,9 +119,9 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "KyLink",
+        title: "Kylink",
         logo: {
-          alt: "KyLink Logo",
+          alt: "Kylink Logo",
           src: "img/apple-touch-icon.png",
         },
         items: [
@@ -182,7 +182,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KyLink Team.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kylink Team.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -25,7 +25,18 @@ export default function CodeBlock({ children: rawChildren, ...props }) {
   const isBrowser = useIsBrowser();
   const children = maybeStringifyChildren(rawChildren);
   if (props.className === "language-python") {
-    return <CodeEditor code={children} />;
+    let deps = [];
+    if ((children as string).startsWith("#!pip: ")) {
+      deps = JSON.parse((children as string).split("\n")[0].slice(7));
+    }
+    return (
+      <CodeEditor
+        code={children}
+        packages={{
+          micropip: deps,
+        }}
+      />
+    );
   } else {
     const CodeBlockComp =
       typeof children === "string" ? StringContent : ElementContent;
