@@ -2,14 +2,12 @@
 sidebar_position: 3
 ---
 
-# `kylink.raw`
-
 `raw` field is consist of basic blockchain types
 
-# `kylink.raw.block`
+## `kylink.arb-nova.raw.block`
 
-get block
+🚧
 
-# `kylink.raw.block`
+## `kylink.arb-nova.raw.transaction`
 
-get block
+🚧
