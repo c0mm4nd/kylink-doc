@@ -2,7 +2,7 @@ The backend API server of kylink, called as diapollos, is built on apollo graphq
 
 You can directly visit the graphql playground for each blockchain and play with raw data from graphql API
 
-Status page: https://kylink.statuspage.io/
+Status page: https://kylink.instatus.com/
 
 | Blockchain | URL |
 | --- | ---|
